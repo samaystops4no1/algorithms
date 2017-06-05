@@ -104,9 +104,9 @@ int main() {
     scanf("%d",&size);
     int arr[size];
     for(int i=0;i<size;i++){
-        printf("Entered the %d value",i);
+        
         scanf("%d",&arr[i]);
-        printf("Entered");
+        
     }
     printf("Sorting the entered numbers...\n");
     t=clock();
