@@ -11,4 +11,5 @@ Contents
 * String search algorithm
 * Graphs
   * Shortest Path using BFS
+  * Kruskals Algorithm to find minimum spanning tree
 
