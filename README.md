@@ -12,4 +12,7 @@ Contents
 * Graphs
   * Shortest Path using BFS
   * Kruskals Algorithm to find minimum spanning tree
+* Peak Finding Algorithm for a 2D matrix
+
+
 
