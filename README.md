@@ -8,6 +8,8 @@ Contents
    * Quick Sort In-place 
    * Insertion Sort 
    * Comparison between insertion sort and quick sort <br />
+* Search
+   * Binary Search Tree
 * String search algorithm
 * Graphs
   * Shortest Path using BFS
