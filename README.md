@@ -10,6 +10,7 @@ Contents
    * Comparison between insertion sort and quick sort <br />
 * Search
    * Binary Search Tree
+   * Binary Search for an Array
 * String search algorithm
 * Graphs
   * Shortest Path using BFS
