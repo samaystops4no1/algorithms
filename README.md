@@ -16,6 +16,7 @@ Contents
   * BFS and DFS for graphs
   * Shortest Path using BFS
   * Kruskals Algorithm to find minimum spanning tree
+  * DFS iterative approach
 * Peak Finding Algorithm for a 2D matrix
 
 
