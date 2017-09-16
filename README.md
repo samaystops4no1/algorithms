@@ -18,6 +18,8 @@ Contents
   * Kruskals Algorithm to find minimum spanning tree
   * DFS iterative approach
   * Tower of hanoi using two way BFS
+* Dynamic Programming
+  * Fibonacci Numbers
 * Peak Finding Algorithm for a 2D matrix
 
 
