@@ -17,6 +17,7 @@ Contents
   * Shortest Path using BFS
   * Kruskals Algorithm to find minimum spanning tree
   * DFS iterative approach
+  * Tower of hanoi using two way BFS
 * Peak Finding Algorithm for a 2D matrix
 
 
