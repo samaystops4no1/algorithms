@@ -20,6 +20,7 @@ Contents
   * Tower of hanoi using two way BFS
 * Dynamic Programming
   * Fibonacci Numbers
+  * Binomial Equation generator
 * Peak Finding Algorithm for a 2D matrix
 
 

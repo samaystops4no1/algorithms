@@ -1,0 +1,53 @@
+#include <iostream>
+#include<vector>
+
+using namespace std;
+
+/*
+Range 0< n <75
+Sample Input-> n=2
+Sample Output-> x^2 + 2x +1
+ */
+
+long long int coefficients(long long int n,long long int k,vector<vector<long long int>>& m){
+    if(m[n][k]!=0){
+        return m[n][k];
+    }
+    if(n==k || k==0){
+        return 1;
+    }
+
+    long long int coeffcient=coefficients(n-1,k-1,m)+coefficients(n-1,k,m);
+    m[n][k]=coeffcient;
+    return coeffcient;
+}
+
+void printEquation(long long int n){
+    vector<vector<long long int>> m(n+1);
+    for(int i=0;i<n+1;i++){
+        vector<long long int> temp(n+1);
+        m[i]=temp;
+    }
+    for(int i=n;i>=0;i--){
+        if(i==0){
+            cout<<1;
+            continue;
+        }
+        if(i==1){
+            cout<<coefficients(n,i,m)<<"x"<<" + ";
+            continue;
+        }
+        if(i==n){
+            cout<<"x^"<<i<<" + ";
+            continue;
+        }
+        cout<<coefficients(n,i,m)<<"x^"<<i<<" + ";
+    }
+}
+
+int main() {
+    int n=3;
+    printEquation(n);
+    return 0;
+
+}
