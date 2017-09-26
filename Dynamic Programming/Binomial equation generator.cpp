@@ -9,6 +9,11 @@ Sample Input-> n=2
 Sample Output-> x^2 + 2x +1
  */
 
+
+/*
+ * Dynamic programming recursive approach
+ * Top Down approach or memoization
+ */
 long long int coefficients(long long int n,long long int k,vector<vector<long long int>>& m){
     if(m[n][k]!=0){
         return m[n][k];
@@ -22,6 +27,33 @@ long long int coefficients(long long int n,long long int k,vector<vector<long lo
     return coeffcient;
 }
 
+/*
+ * Dynamic programming iterative approach
+ * Bottom- Up approach
+ */
+long long int binomial(long long int n,long long int k){
+    vector<vector<long long int>> m(n+1);
+    for(long long int i=0;i<n+1;i++){
+        vector<long long int> temp(n+1);
+        m[i]=temp;
+    }
+    for(long long int i=0;i<=k;i++){
+        for(long long int j=i;j<=n;j++){
+            if(i==j || i==0){
+                m[j][i]=1;
+            }
+            else{
+                m[j][i]=m[j-1][i-1]+m[j-1][i];
+            }
+        }
+    }
+    return m[n][k];
+
+}
+
+/*
+ * Prints the complete binomial expansion for given value of n
+ */
 void printEquation(long long int n){
     vector<vector<long long int>> m(n+1);
     for(int i=0;i<n+1;i++){
@@ -46,7 +78,7 @@ void printEquation(long long int n){
 }
 
 int main() {
-    int n=3;
+    int n=50;
     printEquation(n);
     return 0;
 
