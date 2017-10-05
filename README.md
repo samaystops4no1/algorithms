@@ -11,6 +11,7 @@ Contents
 * Search
    * Binary Search Tree
    * Binary Search for an Array
+   * Min Heaps
 * String search algorithm
 * Graphs
   * BFS and DFS for graphs
