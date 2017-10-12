@@ -19,6 +19,7 @@ Contents
   * Kruskals Algorithm to find minimum spanning tree
   * DFS iterative approach
   * Tower of hanoi using two way BFS
+  * Shortest Path in a directed acyclic graph(DAG)
 * Dynamic Programming
   * Fibonacci Numbers
   * Binomial Equation generator
