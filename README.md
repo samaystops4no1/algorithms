@@ -20,6 +20,7 @@ Contents
   * DFS iterative approach
   * Tower of hanoi using two way BFS
   * Shortest Path in a directed acyclic graph(DAG)
+  * Djikstras algorithm for cyclic graphs
 * Dynamic Programming
   * Fibonacci Numbers
   * Binomial Equation generator
