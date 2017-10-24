@@ -24,6 +24,7 @@ Contents
 * Dynamic Programming
   * Fibonacci Numbers
   * Binomial Equation generator
+  * Longest Common Subsequences
 * Peak Finding Algorithm for a 2D matrix
 
 
