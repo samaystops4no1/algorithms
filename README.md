@@ -21,6 +21,7 @@ Contents
   * Tower of hanoi using two way BFS
   * Shortest Path in a directed acyclic graph(DAG)
   * Djikstras algorithm for cyclic graphs
+  * Bellman Ford Algorithm
 * Dynamic Programming
   * Fibonacci Numbers
   * Binomial Equation generator
