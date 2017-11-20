@@ -13,6 +13,7 @@ Contents
    * Binary Search for an Array
    * Min Heaps
 * String search algorithm
+* Printing all Permutations of an array
 * Graphs
   * BFS and DFS for graphs
   * Shortest Path using BFS
