@@ -27,6 +27,7 @@ Contents
   * Fibonacci Numbers
   * Binomial Equation generator
   * Longest Common Subsequences
+  * Minimum Edit Distance
 * Peak Finding Algorithm for a 2D matrix
 
 
