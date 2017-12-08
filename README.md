@@ -1,5 +1,5 @@
 # Algorithms
-These are a set of most commonly used algorithms.
+These are the most commonly used algorithms in competitive programming.
 
 Contents
 ---------
@@ -13,6 +13,8 @@ Contents
    * Binary Search for an Array
    * Min Heaps
 * String search algorithm
+   * Rabin Karp Algorithm
+   * KMP Algorithm
 * Printing all Permutations of an array
 * Graphs
   * BFS and DFS for graphs
