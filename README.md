@@ -15,7 +15,6 @@ Contents
 * String search algorithm
    * Rabin Karp Algorithm
    * KMP Algorithm
-* Printing all Permutations of an array
 * Graphs
   * BFS and DFS for graphs
   * Shortest Path using BFS
@@ -31,6 +30,7 @@ Contents
   * Longest Common Subsequences
   * Minimum Edit Distance
 * Peak Finding Algorithm for a 2D matrix
+* String Justification
 
 
 
